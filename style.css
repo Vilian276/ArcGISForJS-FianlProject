@@ -10,6 +10,7 @@ body,
 #layerList-btn,
 #basemap-btn {
     padding: 6 px;
+    cursor: pointer;
 }
 
 div.esri-component.esri-layer-list.esri-widget.esri-widget--panel {
