@@ -40,4 +40,6 @@ require([
 
     view.ui.add(scaleBar, "bottom-right");
 
+    view.ui.add("layerList", "top-right");
+
 });
