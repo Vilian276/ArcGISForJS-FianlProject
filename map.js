@@ -26,4 +26,18 @@ require([
 
     view.ui.add(homeBtn, "top-left");
 
+    const legend = new Legend({
+        view: view
+    })
+
+    view.ui.add(legend, "bottom-left");
+
+    const scaleBar = new ScaleBar({
+        view: view,
+        unit: "metric",
+        style: "ruler"
+    });
+
+    view.ui.add(scaleBar, "bottom-right");
+
 });
