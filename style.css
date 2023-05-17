@@ -7,6 +7,10 @@ body,
     width: 100%;
 }
 
-#layerList {
+#layerList-btn {
     padding: 6 px;
+}
+
+div.esri-component.esri-layer-list.esri-widget.esri-widget--panel {
+    display: none;
 }
