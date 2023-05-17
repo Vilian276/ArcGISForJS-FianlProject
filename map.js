@@ -42,4 +42,14 @@ require([
 
     view.ui.add("layerList", "top-right");
 
+    document
+        .getElementById("layerList")
+        .addEventListener("click", function() {
+
+        })
+
+    function toggleButton() {
+
+    };
+
 });
